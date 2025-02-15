@@ -1,2 +1,2 @@
 # ai-chatbots
- AI Chatbots for psychological assisance
+ AI Chatbots for psychological assistance
