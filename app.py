@@ -19,7 +19,7 @@ CORS(app, resources={
 
 # Llama 3 API endpoint and headers
 LLAMA_API_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
-API_KEY = "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"
+API_KEY = os.getenv("LLAMA_API_KEY")
 
 @app.route('/chat1', methods=['OPTIONS', 'POST'])
 def chat1():
