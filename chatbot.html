@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Selection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .chatbot-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .chatbot-card {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            width: 300px;
+        }
+        .avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .chatbot-info {
+            flex-grow: 1;
+        }
+        .talk-button {
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select a Chatbot</h1>
+    <div class="chatbot-container">
+        <div class="chatbot-card">
+            <img src="avatar1.png" alt="Chatbot 1" class="avatar">
+            <div class="chatbot-info">
+                <strong>Chatbot 1</strong>
+                <p>Helpful and friendly assistant.</p>
+            </div>
+            <button class="talk-button" onclick="location.href='chatbot1.html'">Start Chat</button>
+        </div>
+        <div class="chatbot-card">
+            <img src="avatar2.png" alt="Chatbot 2" class="avatar">
+            <div class="chatbot-info">
+                <strong>Chatbot 2</strong>
+                <p>Expert in technology and coding.</p>
+            </div>
+            <button class="talk-button">Talk</button>
+        </div>
+        <div class="chatbot-card">
+            <img src="avatar3.png" alt="Chatbot 3" class="avatar">
+            <div class="chatbot-info">
+                <strong>Chatbot 3</strong>
+                <p>Great for casual conversations.</p>
+            </div>
+            <button class="talk-button">Talk</button>
+        </div>
+        <div class="chatbot-card">
+            <img src="avatar4.png" alt="Chatbot 4" class="avatar">
+            <div class="chatbot-info">
+                <strong>Chatbot 4</strong>
+                <p>Knowledgeable about science and facts.</p>
+            </div>
+            <button class="talk-button">Talk</button>
+        </div>
+    </div>
+</body>
+</html>
